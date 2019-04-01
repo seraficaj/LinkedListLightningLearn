@@ -13,7 +13,7 @@ A linked list is similar to, but not entirely like, an array in that data is str
 
 ## What are some examples of linked lists?
 
-- Code Example ![Coding a linked list in python](PythonLinkedList.png)
+- Code Example 1
 ```python
 
 
