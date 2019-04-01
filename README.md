@@ -18,7 +18,7 @@ A linked list is similar to, but not entirely like, an array in that data is str
 
 - Image galleries frequently make use of linked lists to naviage through all the images. A reference to the previous image is needed to find the next image until the end of the gallery.
 
-- Song playlists can also make use of linked lists to determine their playing order. A user can start from the beginning and listen to all the songs.
+- Web browsers create a linked list of web-pages visited, so that when you check history (traversal of a list) or press back button, the previous node's data is fetched.
 
 ## What kinds of problems can I solve/ask with linked lists?
 
