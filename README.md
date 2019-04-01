@@ -14,6 +14,28 @@ A linked list is similar to, but not entirely like, an array in that data is str
 ## What are some examples of linked lists?
 
 - Code Example ![Coding a linked list in python](PythonLinkedList.png)
+```python
+
+
+class linkedListNode:
+  def __init__(self, value, nextNode = None):
+    self.value = value
+    self.nextNode = nextNode
+
+  node1 = linkedListNode("3")
+  node2 = linkedListNode("7")
+  node3 = linkedListNode("10")
+
+  node1.nextNode = node2
+  node2.nextNode = node3
+
+  currentNode = node1
+  while True:
+    print currentNode.value, "->",
+    if currentNode.nextNode is None:
+      print "None"
+      break
+    currentNode = currentNode.nextNode
 
 
 - Image galleries frequently make use of linked lists to naviage through all the images. A reference to the previous image is needed to find the next image until the end of the gallery.
